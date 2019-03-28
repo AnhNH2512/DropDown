@@ -26,5 +26,5 @@ Pod::Spec.new do |s|
   s.resources = "DropDown/resources/*.{png,xib}"
   s.requires_arc = true
 
-  s.swift_version = '5.0'
+  s.swift_version = '4.2'
 end
