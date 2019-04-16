@@ -789,10 +789,10 @@ extension DropDown {
 	
 	fileprivate func constraintWidthToFittingSizeIfNecessary(layout: inout ComputeLayoutTuple) {
 		guard width == nil else { return }
-		
+		/*
 		if layout.width < fittingWidth() {
 			layout.width = fittingWidth()
-		}
+		}*/
 	}
 	
 }
